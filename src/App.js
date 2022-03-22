@@ -3,21 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-green-400 w-100 h-screen bg-gray-900">
+      <div className='h-10 w-full bg-blue-300'><span className='text-green-500 font-bold'>IFT Token Staking</span></div>
+      <div className='container mx-auto'>
+          <div className='flex flex-col'>
+              <div>Your Staked: 100000</div>
+              
+          </div>
+      </div>
     </div>
   );
 }
