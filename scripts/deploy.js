@@ -14,7 +14,7 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const Token = await hre.ethers.getContractFactory("StakingToken");
+  const Token = await hre.ethers.getContractFactory("Staking");
   const token = await Token.deploy(10000);
 
   await token.deployed();
